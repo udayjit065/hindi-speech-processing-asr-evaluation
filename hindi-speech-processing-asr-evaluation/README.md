@@ -138,16 +138,6 @@ See [requirements.txt](requirements.txt) for complete list.
 
 - [technical_report.md](technical_report.md) - Detailed methodology, experiments, and analysis
 - [experimental_validation.md](experimental_validation.md) - Validation procedures and results
-
-## 👤 Author
-
-**Student Name**  
-Final Year Computer Science Engineering  
-[Institution Name]
-
-Course: Speech Processing and ASR Evaluation  
-Submission Date: February 2026
-
 ## 📝 License
 
 This project is submitted as an academic assignment. Use for educational purposes only.
@@ -159,7 +149,4 @@ Key papers and resources:
 - Povey et al. (2011) - The Kaldi Speech Recognition Toolkit
 - Word Error Rate metrics and evaluation techniques
 - Hindi language processing resources
-
----
-
-**Note**: The `data_sample/` folder contains only a small subset of data for demonstration. Full dataset not included in repository.
+ 
