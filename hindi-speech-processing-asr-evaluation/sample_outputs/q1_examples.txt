@@ -1,0 +1,16 @@
+Q1: Whisper Fine-tuning Examples Output
+========================================
+
+This file contains example outputs from the Whisper fine-tuning module (question1_whisper_finetune.py).
+
+The module generates:
+- Training logs and loss curves
+- Validation metrics at regular intervals
+- Fine-tuned model checkpoint
+- Sample inference outputs comparing baseline vs fine-tuned Whisper
+
+Expected output includes:
+- Word Error Rate (WER) improvements
+- Character Error Rate (CER) improvements
+- Inference time comparisons
+- Example transcriptions for test set samples

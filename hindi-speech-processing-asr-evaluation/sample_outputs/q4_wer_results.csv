@@ -1,0 +1,31 @@
+Q4: Lattice-Based WER Evaluation Results
+==========================================
+
+This CSV file contains Word Error Rate (WER) evaluation results from the lattice-based consensus approach (question4_lattice_wer.py).
+
+Columns:
+utterance_id,reference_text,hypothesis_text,wer_traditional,wer_lattice,cer,word_errors,char_errors
+
+Format:
+utterance_123,reference_transcription,hypothesis_transcription,0.15,0.12,0.08,2,5
+
+The file includes:
+- Unique utterance identifiers
+- Reference (ground truth) transcriptions
+- ASR hypothesis transcriptions
+- Traditional WER (Levenshtein distance based)
+- Lattice-based WER (consensus decoding)
+- Character Error Rate (CER)
+- Count of word-level errors
+- Count of character-level errors
+
+Summary statistics computed:
+- Mean WER (traditional)
+- Mean WER (lattice)
+- Improvement percentage
+- Standard deviation
+- Min/Max WER values
+- Overall CER
+
+This demonstrates the effectiveness of lattice-based consensus methods
+in improving ASR evaluation metrics.

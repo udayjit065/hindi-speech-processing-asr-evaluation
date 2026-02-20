@@ -1,0 +1,29 @@
+Q3: Hindi Word Spelling Classification Results
+================================================
+
+This CSV file contains sample spelling classification results (question3_spelling.py).
+
+Columns:
+word,predicted_class,confidence_score,reference_class,correct
+
+Format:
+word_in_hindi,correct/incorrect,confidence_0_to_1,correct/incorrect,true/false
+
+The file includes:
+- Hindi words from test set
+- Model's predicted spelling class (correct or incorrect)
+- Confidence scores
+- Ground truth labels
+- Whether prediction was correct
+
+Example rows:
+हिंदी,correct,0.98,correct,true
+किताब,incorrect,0.85,incorrect,true
+लिखना,correct,0.92,correct,true
+सुनना,incorrect,0.67,correct,false
+
+Metrics computed:
+- Accuracy
+- Precision per class
+- Recall per class
+- F1-score per class

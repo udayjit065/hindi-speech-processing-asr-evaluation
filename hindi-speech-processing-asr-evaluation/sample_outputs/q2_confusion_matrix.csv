@@ -1,0 +1,25 @@
+Q2: Disfluency Detection - Confusion Matrix
+=============================================
+
+This CSV file contains the confusion matrix from the disfluency detection module (question2_disfluency.py).
+
+Format:
+predicted_class,reference_class,count
+
+The matrix shows:
+- True Positives: Correctly identified disfluencies
+- False Positives: Non-disfluencies classified as disfluencies
+- True Negatives: Correctly identified fluent speech
+- False Negatives: Disfluencies not detected
+
+Disfluency types may include:
+- Stutters
+- Prolongations
+- Interjections (filled pauses)
+- Repetitions
+- Revisions
+
+Example row:
+stutter,stutter,45
+filled_pause,filled_pause,38
+fluent,fluent,150
